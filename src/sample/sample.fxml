@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <BorderPane prefHeight="294.0" prefWidth="536.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <center>
+            <Canvas fx:id="canvas" height="167.0" width="444.0" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#food" text="корм" BorderPane.alignment="CENTER" />
+         </bottom></BorderPane>
+   </children>
+</GridPane>
